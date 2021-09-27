@@ -20,6 +20,13 @@ header {
     z-index: 9999;
     background-position: 70%;
     background-color: var(--light-green);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header a {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 header nav {
@@ -51,8 +58,10 @@ header nav li {
     text-align: center;
 }
 
-img {
-    flex: auto;
-    float: inline-start;
-    width: 33.33%;
+.first-image {
+    width: 50%;
+}
+
+.second-image {
+    width: 50%;
 }
